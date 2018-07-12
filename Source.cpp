@@ -7,7 +7,7 @@ using namespace cv;
 using namespace std;
 
 
-/*Draw histogram for B, G, R*/
+/*Draw histogram for gray Image*/
 void drawHis(Mat src, Mat &histImage)
 {
 	vector<Mat> bgr_planes;
